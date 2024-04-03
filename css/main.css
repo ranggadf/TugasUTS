@@ -1,0 +1,176 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+
+    
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+nav{
+    background-color:dodgerblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+}
+nav ul li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+section {
+    text-align: center;
+    padding: 50px 0;
+}
+.image-container {
+    position: relative;
+            max-width: 800px;
+            margin: auto;
+}
+
+.image-container img {
+    width:500px;
+    height: auto;
+    
+}
+
+.caption {
+    flex: 1; 
+    border: 10px solid rgb(85, 116, 217) ;
+    background-color: white;
+    color: black;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.profile-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.profile-picture {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.profile-details {
+    text-align: left;
+}
+
+.profile-details h2 {
+    margin-top: 0;
+}
+
+.profile-details p {
+    margin-bottom: 10px;
+}
+.about-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.about-picture {
+    flex: 1;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.about-picture img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-essay {
+    flex: 2;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: dodgerblue;
+}
+.hobby-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hobby-item {
+    margin-bottom: 20px;
+}
+
+.hobby-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hobby-item h2 {
+    margin-top: 0;
+}
+
+.hobby-item p {
+    margin-bottom: 10px;
+}
+
